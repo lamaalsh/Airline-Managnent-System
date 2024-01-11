@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lama First Project</string>
+    <string name="experience_rating">تقييم تجربتك: %1$d</string>
+
+    <string name="welcome_message">مرحبًا أيها المشرف!</string>
+    <string name="role_description">دورك هو إضافة دورات برمجة جديدة إلى قاعدة بياناتنا. انقر فوق الزر أدناه لبدء إدراج الدورات.</string>
+    <string name="insert_courses_button">إدراج دورات الترميز</string>
+
+    <string name="login_page">صفحة تسجيل الدخول</string>
+    <string name="username_hint">اسم المستخدم</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="if_admin">إذا المشرف،</string>
+    <string name="admin_login">دخول المشرف</string>
+
+    <string name="home_page_title">الصفحة الرئيسية</string>
+    <string name="login_signup">الدخول التسجيل فى الموقع</string>
+    <string name="login_or_signup">تسجيل الدخول أو الاشتراك</string>
+    <string name="signup_page">صفحة الاشتراك</string>
+    <string name="our_courses">دوراتنا</string>
+    <string name="go_check_courses">اذهب وتحقق من دوراتنا الخاصة.</string>
+    <string name="learn_more_about">اعرف المزيد عن ماستركس</string>
+    <string name="explore_more">اكتشف المزيد عن MasterX.</string>
+    <string name="learn_more">اعرف المزيد</string>
+
+    <string name="sign_up_page">صفحة الاشتراك</string>
+    <string name="full_name_hint">الاسم الكامل</string>
+
+    <string name="confirm_password_hint">تأكيد كلمة المرور</string>
+    <string name="phone_hint">رقم الهاتف</string>
+    <string name="register">التسجيل</string>
+    <string name="go_to_login">انتقل إلى تسجيل الدخول</string>
+
+    <string name="admin_employee_login">تسجيل دخول المشرف والموظفين</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+
+    <string name="level_question">1- ما هو المستوى الذي تريده؟</string>
+    <string name="standard">قياسي</string>
+    <string name="premium">بريميوم</string>
+    <string name="gold">الذهب</string>
+
+    <string name="material_type_question">2- ما نوع المادة التي تفضلها؟</string>
+    <string name="online_sessions">الجلسات عبر الإنترنت</string>
+    <string name="text">النص</string>
+    <string name="audio">الصوت</string>
+
+    <string name="course_duration">3- المدة المفضلة للدورة:</string>
+    <string name="confirm_purchase">أكد رغبتك في شراء هذه الدورة التدريبية:</string>
+    <string name="confirm">أؤكد</string>
+    <string name="save">حفظ</string>
+
+    <string name="congratulations_message">تهانينا!</string>
+    <string name="dismiss_button_text">تجاهل</string>
+</resources>

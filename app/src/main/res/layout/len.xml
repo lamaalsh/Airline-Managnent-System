@@ -1,0 +1,23 @@
+<!-- res/layout/toolbar.xml -->
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#86E91E63"
+
+    >
+
+    <!-- Customize your toolbar with TextViews, ImageViews, etc. -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn More About MasterX"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="22dp"
+android:layout_marginLeft="50dp"
+        />
+
+</androidx.appcompat.widget.Toolbar>

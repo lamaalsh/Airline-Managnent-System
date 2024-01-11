@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/bk"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin_employee_login"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/AUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#234"
+            android:textColorHint="#234"
+            android:hint="@string/username" />
+
+        <EditText
+            android:id="@+id/APassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColor="#234"
+            android:textColorHint="#234"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/abtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:backgroundTint="#441A59D8"
+            android:onClick="loginButtonClick"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</LinearLayout>

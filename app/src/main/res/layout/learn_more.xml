@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <include layout="@layout/len" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn More About MasterX"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction to MasterX"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MasterX offers coding courses for students to learn and grow in the field of programming. Our platform provides diverse courses, interactive learning experiences, and more. We aim to empower individuals with valuable skills and knowledge to succeed in the tech industry."
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:src="@drawable/gh"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key Features"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Diverse course selection\n• Interactive learning\n• User-friendly interface\n• Flexible learning schedule\n• Expert instructors\n• Practical projects"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Offerings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="• Programming languages (Java, Python, C++, etc.)\n• Web development\n• Mobile app development\n• Data science and analytics\n• Software engineering\n• Cybersecurity" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ui" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits for Students"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Skill enhancement and development\n• Career opportunities\n• Hands-on experience\n• Certificates of completion"
+            android:paddingBottom="16dp"/>
+
+        <!-- How It Works -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Sign up and create an account\n• Browse and select desired courses\n• Learn at your own pace\n• Complete assessments and projects\n• Track progress and achievements"
+            android:paddingBottom="16dp"/>
+
+        <!-- Testimonials or Reviews -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call us now if you have more questions:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call us now"
+            android:id="@+id/cos"
+            android:layout_gravity="center"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

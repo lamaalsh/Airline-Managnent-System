@@ -1,0 +1,134 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sign_up_page"
+            android:textColor="#4568AE"
+            android:textSize="40dp"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/full_name_hint"
+            android:textColor="#4568AE"
+            android:textColorHint="#550563"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/username_hint"
+            android:textColor="#4568AE"
+            android:textColorHint="#550563"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/password_hint"
+            android:textColor="#4568AE"
+            android:textColorHint="#550563"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/etrePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/confirm_password_hint"
+            android:textColor="#4568AE"
+            android:textColorHint="#550563"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/phone_hint"
+            android:inputType="number"
+            android:textColor="#4568AE"
+            android:textColorHint="#550563"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#441A59D8"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="12dp"
+            android:hint="@string/register"
+            android:textSize="18sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#441A59D8"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="12dp"
+            android:hint="@string/go_to_login"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+<com.google.android.material.bottomnavigation.BottomNavigationView
+android:id="@+id/bottomNavigationView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:background="?android:attr/windowBackground"
+app:menu="@menu/bottom_navigation_menu"
+app:itemIconTint="@null"/>
+</RelativeLayout>

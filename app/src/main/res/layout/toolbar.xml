@@ -1,0 +1,21 @@
+<!-- res/layout/toolbar.xml -->
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#86E91E63"
+>
+
+    <!-- Customize your toolbar with TextViews, ImageViews, etc. -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MasterX"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="40dp"
+ android:padding="5dp"
+        />
+
+</androidx.appcompat.widget.Toolbar>

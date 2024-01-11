@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Lama First Project</string>
+    <string name="experience_rating">Your experience rating: %1$d</string>
+    <string name="welcome_message">Welcome, Admin!</string>
+    <string name="role_description">Your role is to add new coding courses to our database. Click the button below to start inserting courses.</string>
+    <string name="insert_courses_button">Insert Coding Courses</string>
+    <string name="login_page">Login Page</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="if_admin">If Admin,</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="home_page_title">Home Page</string>
+    <string name="login_signup">Login/Sign_Up</string>
+    <string name="login_or_signup">Login or SignUp</string>
+    <string name="signup_page">Signup Page</string>
+    <string name="our_courses">Our Courses</string>
+    <string name="go_check_courses">Go And Check Our Special Courses.</string>
+    <string name="learn_more_about">Learn More About MasterX</string>
+    <string name="explore_more">Explore more about MasterX.</string>
+    <string name="learn_more">Learn More</string>
+
+    <string name="sign_up_page">Sign Up Page</string>
+    <string name="full_name_hint">Full Name</string>
+
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="go_to_login">Go To Login</string>
+
+    <string name="admin_employee_login">Admin and Employees Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="level_question">1- Which level do you want?</string>
+    <string name="standard">Standard</string>
+    <string name="premium">Premium</string>
+    <string name="gold">Gold</string>
+
+    <string name="material_type_question">2- Which type of material do you prefer?</string>
+    <string name="online_sessions">Online Sessions</string>
+    <string name="text">Text</string>
+    <string name="audio">Audio</string>
+
+    <string name="course_duration">3- Preferred course duration:</string>
+    <string name="confirm_purchase">Confirm that you want to purchase this course:</string>
+    <string name="confirm">I confirm</string>
+    <string name="save">Save</string>
+    <string name="congratulations_message">Congratulations!</string>
+    <string name="dismiss_button_text">Dismiss</string>
+
+</resources>

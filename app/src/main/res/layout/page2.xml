@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    android:gravity="center"
+    android:background="@drawable/img_1"
+
+    android:id="@+id/ll">
+
+
+    <!-- First Row -->
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Know More About Our Courses"
+        android:background="#FCFEFF"
+        android:textSize="18sp"
+        android:textColor="#FF00A1"
+        android:padding="10dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- CardView 1 -->
+        <androidx.cardview.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/Coding"
+            android:background="@color/white"
+            android:layout_width="180dp"
+            android:layout_height="210dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="10dp"
+                    android:src="@drawable/img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Coding"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="#123" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Learn to code and build amazing apps"
+                    android:textColor="@android:color/darker_gray" />
+
+                <Button
+                    android:textColor="@color/design_default_color_primary"
+                    android:id="@+id/buttonToExample"
+                    android:layout_width="216dp"
+                    android:layout_height="43dp"
+                    android:text="Learn More"
+                    android:backgroundTint="#441A59D8"
+                    android:onClick="goToExampleActivity"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- CardView 2 -->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_navigation_menu"
+        app:itemIconTint="@null"/>
+</RelativeLayout>

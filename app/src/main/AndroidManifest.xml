@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/mas"
+        android:label="MasterX"
+        android:roundIcon="@drawable/mas"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LamaFirstProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".page2act"></activity>
+        <activity android:name=".insertdata" >       </activity>
+        <activity android:name=".UserList" >       </activity>
+        <activity android:name=".LoginActivity" >
+        </activity>
+        <activity android:name=".homepage"></activity>
+        <activity android:name=".confirm"></activity>
+        <activity
+            android:name=".TeamActivity"
+            android:label="Team Activity">
+        </activity>
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".AdminLogin"></activity>
+        <activity android:name=".Admin"></activity>
+        <activity android:name=".kay"></activity>
+        <activity android:name=".LearnMore"></activity>
+        <activity android:name=".Profile"></activity>
+    </application>
+
+</manifest>

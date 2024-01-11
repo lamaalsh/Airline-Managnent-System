@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:background="@drawable/bk"
+            android:paddingTop="40dp"
+            android:orientation="vertical">
+
+            <!-- Your login page components -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login_page"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:textColor="#7595B5" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/username_hint"
+            android:textColor="#4568AE"
+            android:textColorHint="#550563"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/password_hint"
+            android:textColor="#4568AE"
+            android:textColorHint="#550563"
+            android:textStyle="bold" />
+
+
+        <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+        android:backgroundTint="#441A59D8"
+
+        android:layout_marginTop="36dp"
+/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#7595B5"
+        android:text="@string/if_admin"
+        />
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#441A59D8"
+
+        android:text="@string/admin_login"
+
+        />
+        <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
